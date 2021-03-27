@@ -1,13 +1,12 @@
-let acc = document.querySelector(".questions-answers");
-let answer = document.querySelector(".container-faq")
-let i;
 
+const menu = document.querySelector(".hamburger-menu");
+const menuLinks = document.querySelector(".links-mobile");
+// HAMBURGER MENU - OPEN NAV
+const openNav = () => {
+menu.addEventListener('click', () => {
+  menuLinks.classList.toggle('links-mobile-active');
+});
 
-const switchClass = () => {
-  acc.addEventListener('click', () => {
-    answer.classList.toggle('a-active');
-  });
-  
-  }
-  switchClass();
-  
+}
+openNav();
+
