@@ -232,7 +232,7 @@ main {
 }
 
 .creation-img:hover {
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 .image-title {
@@ -242,6 +242,7 @@ main {
           transform: translate(20px, -20px);
   width: 10%;
   text-shadow: 2px 2px #000000;
+  z-index: 100;
 }
 
 footer {
